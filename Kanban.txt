@@ -1,0 +1,30 @@
+Kanban:
+
+
+
+NEED TODO:
+Splitting the framework code and optimising each person's respective part.
+Plans for Second iteration
+Complete user storty
+
+
+
+
+IN PROCESS:
+
+
+
+
+
+
+
+DONE:
+1. Think games' idea
+2. Decide game
+3. Game Analysis: Find the twist.
+4. Initial design of the game: discussing the structure.
+5. Class diagram and game-prototype.
+6. First meeting for processing coding.
+7.Initial completion of the game framework.
+Timer, characters, jump mechanics, trap mechanics.
+8.Second meeting: Game testing and improvement, plans for the next iteration.
