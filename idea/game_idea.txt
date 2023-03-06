@@ -1,0 +1,16 @@
+First round:
+1. 2048
+2. tank battle
+3. jump jump(part of It takes two)
+4. flappy bird
+5. pacman
+6. Battlefield
+
+Second round:(It's too easy or it's hard to improve)
+1. tank battle
+2. jump jump(part of It takes two)
+
+For vote:
+jump jump(5)----------win!!!!
+
+tank battle(0)
