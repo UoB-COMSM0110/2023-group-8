@@ -2,7 +2,7 @@ int live = 5;
 PImage heart;
 
 void setHeart(){
-  heart = loadImage("heart.jpeg");
+  heart = loadImage("heart.png");
 }
 
 void drawHeart(){
