@@ -8,6 +8,8 @@ int frontSize = 32;
 void draw() {
   image(img_Map, 0, 0);
   TimeCounter();
+  //setHeart();
+  drawHeart();
   if (isJumping) {
     float elapsedTime = millis() - jumpStartTime; // jumping time setting
     if (elapsedTime < 1000) { // jumping less than 1 sec
