@@ -1,6 +1,6 @@
 float playerX, playerY;
-float playerWidth = 5, playerHeight = 5;
-float playerAngle;
+float playerWidth = 50, playerHeight = 50;
+float playerAngle = PI;
 boolean isJumping = false;
 int jumpStartTime = 0;
 float jumpSize = 0;
@@ -20,13 +20,13 @@ void movePlayer() {
     } else if (key == 'd') {
       playerAngle += 0.1;
     } else if (key == 'w') {
-      float dx = cos(playerAngle) * 5;
-      float dy = sin(playerAngle) * 5;
+      float dx = cos(playerAngle + PI/2) * 5;
+      float dy = sin(playerAngle + PI/2) * 5;
       playerX += dx;
       playerY += dy;
     } else if (key == 's') {
-      float dx = cos(playerAngle) * -5;
-      float dy = sin(playerAngle) * -5;
+      float dx = cos(playerAngle + PI/2) * -5;
+      float dy = sin(playerAngle + PI/2) * -5;
       playerX += dx;
       playerY += dy;
     }
@@ -37,12 +37,6 @@ void drawPlayer(float jumpSize) {
   pushMatrix();
   translate(playerX, playerY);
   rotate(playerAngle);
-  fill(0, 255, 0);
-  noStroke();
-  beginShape();
-  vertex(-playerWidth / 2, playerHeight / 2);
-  vertex(playerWidth / 2, playerHeight / 2);
-  vertex(0, -jumpSize);
-  endShape(CLOSE);
+  image(playerImg, -playerWidth/2, -playerHeight/2, playerWidth, playerHeight+jumpSize);
   popMatrix();
 }
