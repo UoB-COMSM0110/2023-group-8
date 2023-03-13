@@ -1,0 +1,20 @@
+Zonghan：
+
+life : touch the trap, lose one heart.
+reset function
+strat page
+
+
+Feng:
+
+player: move , jumping and move , touch png on the character. make smooth move.
+
+
+Tianlu and Yuebing:
+
+Trap：make the trap function completely(Like difficulty.)
+
+
+Dan：
+
+Score function.
